@@ -25,7 +25,7 @@ defmodule NervesLivebook.MixProject do
   def application do
     [
       mod: {NervesLivebook.Application, []},
-      extra_applications: [:logger, :runtime_tools, :inets]
+      extra_applications: [:logger, :mix, :hex, :runtime_tools, :inets]
     ]
   end
 
